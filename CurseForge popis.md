@@ -29,8 +29,15 @@ Shader packs do not work correctly with Distant Horizons: the cloud is only hidd
 - NTM - Continuum (hbm 1.0.5 or newer) and its requirement Golem Core
 
 ## Configuration
-`config/hbm_farview-common.toml`
-- `farTrackingRange`: how far (in blocks) the mushroom cloud, blast effects and missiles are sent to the player. Default and maximum 4096, 0 turns the range extension off. If you have problems such as lag, lower this value. An older config file may still contain 1024.
+Open the config screen with the Config button in the mod list or with the command `/farview config`. Changes apply at once, without a restart.
+
+Client settings (`config/hbm_farview-client.toml`), only for your own game:
+- `blastEffects`: show the mushroom cloud and the large blast effects from far away.
+- `missiles`: show NTM missiles in flight from far away.
+- `missileSmoke`: draw the missile smoke from far away.
+
+Common settings (`config/hbm_farview-common.toml`):
+- `farTrackingRange`: how far (in blocks) the mushroom cloud, blast effects and missiles are sent to the player. Default and maximum 4096, 0 turns the range extension off. If you have problems such as lag, lower this value. An older config file may still contain 1024. On a server only the server owner can change it.
 
 ## Status
 Alpha. Tested with a single player world and the bombs Ivy Mike and Tsar Bomba. The range of 4096 blocks, dedicated servers and shaders are not fully tested. Please report problems with your setup and the latest.log.

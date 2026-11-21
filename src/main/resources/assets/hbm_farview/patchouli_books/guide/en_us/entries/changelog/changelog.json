@@ -5,6 +5,11 @@
   "pages": [
     {
       "type": "patchouli:text",
+      "title": "0.2.8",
+      "text": "New config screen. Open it with the Config button in the mod list or with the command /farview config.$(br2)New client settings: far blast effects, far missiles and far missile smoke can each be turned off. Changes apply at once, without a restart."
+    },
+    {
+      "type": "patchouli:text",
       "title": "0.2.7",
       "text": "NTM missiles are now visible from far away, in flight, beyond the render distance.$(br2)The exhaust flame and smoke behind a missile is also drawn at a long distance. With distance it is thinner and larger.$(br2)Missiles are hidden by Distant Horizons hills, like the mushroom cloud."
     },

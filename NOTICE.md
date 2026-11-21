@@ -1,5 +1,6 @@
 HBM Far View
 LGPL-3.0, see LICENSE and LICENSE.LESSER.
+Source code: https://github.com/Kinchep/HBM-FarView
 
 The method of extending entity tracking for the mushroom cloud follows
 NTM Decentralized Edition by SecretAgent12 (LGPL-3.0):
