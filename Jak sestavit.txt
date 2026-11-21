@@ -1,0 +1,6 @@
+1. Otevri slozku HBM-FarView v IntelliJ (File > Open, vyber build.gradle, Open as Project).
+2. Pockej na nacteni Gradle (Reload All Gradle Projects).
+3. Vpravo Gradle > Tasks > build > build.
+4. Hotovy jar: build/libs/hbm-farview-0.2.3.jar
+5. Dej ho do slozky mods vedle Continuum a Golem Core.
+6. Nastaveni vzdalenosti: config/hbm_farview-common.toml (farTrackingRange, vychozi 1024 bloku).

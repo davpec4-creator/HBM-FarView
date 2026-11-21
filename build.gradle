@@ -1,0 +1,43 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.+'
+}
+
+version = mod_version
+group = 'com.hbmfarview'
+
+base {
+    archivesName = 'hbm-farview'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+
+neoForge {
+    version = neoforge_version
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    compileOnly 'io.github.llamalad7:mixinextras-common:0.4.1'
+    compileOnly files('libs/distanthorizons-api-3.3.3.jar')
+}
+
+tasks.named('processResources') {
+    def props = [version: mod_version]
+    inputs.properties props
+    filesMatching(['META-INF/neoforge.mods.toml', 'data/hbm_farview/patchouli_books/guide/book.json']) {
+        expand props
+    }
+}

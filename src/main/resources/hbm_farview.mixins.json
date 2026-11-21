@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hbmfarview.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinEntity",
+    "MixinTrackedEntity"
+  ],
+  "client": [
+    "client.MixinTorexRenderer",
+    "client.MixinCloudRenderTypes",
+    "client.MixinFleijaRenderDistance",
+    "client.MixinEntityRenderer",
+    "client.MixinEntityRenderDispatcher",
+    "client.MixinLevelRenderer",
+    "client.MixinGameRenderer",
+    "client.MixinCompatParticle",
+    "client.MixinHbmParticleHandlers"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Seen from afar",
+  "icon": "minecraft:spyglass",
+  "category": "hbm_farview:basics",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/mushroom_close.png"
+      ],
+      "title": "Mushroom cloud",
+      "text": "A nuclear mushroom cloud above a blast site.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/far_view.png"
+      ],
+      "title": "Far away",
+      "text": "The cloud stays visible and animated from far away.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/very_far_view.png"
+      ],
+      "title": "Very far away",
+      "text": "Seen from very far away, as a silhouette against the sky.",
+      "border": true
+    }
+  ]
+}

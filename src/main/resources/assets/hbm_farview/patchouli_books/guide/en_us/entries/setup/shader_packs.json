@@ -1,0 +1,64 @@
+{
+  "name": "Shader packs",
+  "icon": "minecraft:glass",
+  "category": "hbm_farview:setup",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Many shader packs draw their own fog at the edge of the render distance. That fog hides the cloud. Turn it off and the cloud shows up.$(br2)Look for options named Border Fog, Chunk Border Fog or Distant Fog.",
+      "title": "Shader packs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Shader Pack Settings > Atmosphere > Fog > Border Fog > Off",
+      "title": "Complementary Reimagined"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In the fog settings, set Chunk Border Fog to Off.",
+      "title": "Bliss"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Option names differ between packs. Look for a setting like Border Fog, Chunk Border Fog or Distant Fog and turn it off.$(br2)Clouds drawn by a shader pack can overlap the mushroom cloud. That depends on the pack.",
+      "title": "Other packs"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/shader_complementary.png"
+      ],
+      "title": "Complementary Reimagined",
+      "text": "Border Fog off.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/shader_bliss.png"
+      ],
+      "title": "Bliss",
+      "text": "Chunk Border Fog off.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/shader_solas.png"
+      ],
+      "title": "Solas Shaders",
+      "text": "Solas Shaders pack.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "hbm_farview:textures/book/shader_vanilla.png"
+      ],
+      "title": "No shader pack",
+      "text": "Vanilla rendering for comparison.",
+      "border": true
+    }
+  ]
+}

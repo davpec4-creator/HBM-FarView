@@ -1,0 +1,11 @@
+{
+  "hbm_farview.configuration.title": "HBM Far View Configuration",
+  "hbm_farview.configuration.section.hbm.farview.client.toml": "Client Settings",
+  "hbm_farview.configuration.section.hbm.farview.client.toml.title": "HBM Far View Client Settings",
+  "hbm_farview.configuration.section.hbm.farview.common.toml": "Common Settings",
+  "hbm_farview.configuration.section.hbm.farview.common.toml.title": "HBM Far View Common Settings",
+  "hbm_farview.configuration.blastEffects": "Far Blast Effects",
+  "hbm_farview.configuration.missiles": "Far Missiles",
+  "hbm_farview.configuration.missileSmoke": "Far Missile Smoke",
+  "hbm_farview.configuration.farTrackingRange": "Far Tracking Range"
+}

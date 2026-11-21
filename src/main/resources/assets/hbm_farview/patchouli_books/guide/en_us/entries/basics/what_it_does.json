@@ -1,0 +1,32 @@
+{
+  "name": "What it does",
+  "icon": "minecraft:tnt",
+  "category": "hbm_farview:basics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "HBM Far View keeps the large explosion effects of NTM - Continuum visible and animated far beyond your render distance.$(br2)It covers the nuclear mushroom cloud and the Fleija, Solinium, Rainbow and Tom blast effects."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The server sends the effect to players up to a set distance. On your side the cloud is no longer hidden by chunk culling or by the fog at the edge of the render distance.$(br2)The sky flash and the sound still arrive with their own delay, as in NTM - Continuum.",
+      "title": "How it works"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Distance",
+      "text": "The cloud is sent to you up to farTrackingRange blocks away, 1024 by default.$(br2)While a cloud is on screen, the camera view distance is extended to fit it, so a low render distance does not cut it off."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "File: config/hbm_farview-common.toml$(br2)farTrackingRange: how far, in blocks, the effects are sent to the player. Default 1024. 0 turns the range extension off.",
+      "title": "Configuration"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The method for the extended entity tracking follows NTM Decentralized Edition by SecretAgent12 (LGPL-3.0).$(br2)Written with Claude (Anthropic) under the direction of the project author.$(br2)License: LGPL-3.0",
+      "title": "Credits"
+    }
+  ]
+}

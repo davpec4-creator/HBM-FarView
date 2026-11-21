@@ -1,0 +1,50 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "LGPL-3.0"
+
+[[mods]]
+modId = "hbm_farview"
+version = "${version}"
+displayName = "HBM Far View-Continuum compat"
+authors = "kinchep"
+logoFile = "logo.png"
+description = '''Keeps the mushroom cloud ...
+
+The approach follows NTM Decentralized Edition by SecretAgent12 (LGPL-3.0).'''
+
+[[mixins]]
+config = "hbm_farview.mixins.json"
+
+[[dependencies.hbm_farview]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.228,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hbm_farview]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hbm_farview]]
+modId = "hbm"
+type = "required"
+versionRange = "[1.0.5,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.hbm_farview]]
+modId = "patchouli"
+type = "required"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hbm_farview]]
+modId = "distanthorizons"
+type = "optional"
+versionRange = "[3.3.3,)"
+ordering = "AFTER"
+side = "CLIENT"

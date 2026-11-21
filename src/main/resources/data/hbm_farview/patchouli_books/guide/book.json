@@ -1,0 +1,10 @@
+{
+  "name": "HBM Far View Guide",
+  "landing_text": "Keeps the mushroom cloud and the large blast effects of NTM - Continuum visible and animated from far away.",
+  "subtitle": "Version ${version}",
+  "use_resource_pack": true,
+  "i18n": false,
+  "show_progress": false,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "use_blocky_font": true
+}

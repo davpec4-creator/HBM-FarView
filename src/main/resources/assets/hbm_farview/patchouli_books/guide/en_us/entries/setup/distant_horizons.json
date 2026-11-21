@@ -1,0 +1,13 @@
+{
+  "name": "Distant Horizons",
+  "icon": "minecraft:compass",
+  "category": "hbm_farview:setup",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With Distant Horizons the cloud may not show up until you change one setting.$(br2)Distant Horizons > Advanced Options > Graphics > Quality > Vanilla Fade Mode > None",
+      "title": "Distant Horizons"
+    }
+  ]
+}

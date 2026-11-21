@@ -1,0 +1,29 @@
+{
+  "name": "Change log",
+  "icon": "minecraft:book",
+  "category": "hbm_farview:changelog",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "0.2.7",
+      "text": "NTM missiles are now visible from far away, in flight, beyond the render distance.$(br2)The exhaust flame and smoke behind a missile is also drawn at a long distance. With distance it is thinner and larger.$(br2)Missiles are hidden by Distant Horizons hills, like the mushroom cloud."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The default and maximum of farTrackingRange are now 4096 blocks (it was 1024). An older config file may still contain 1024.$(br2)This range is not fully tested, especially on dedicated servers. If you have problems such as lag, lower the value and report the problem with your latest.log."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "0.2.6",
+      "text": "Distant Horizons support.$(br2)Far hills drawn by Distant Horizons now hide the mushroom cloud. Only the part behind a hill is hidden, also while you move around."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Vanilla Fade Mode in Distant Horizons still has to be set to None.$(br2)A chat hint is shown after joining a world while it is on."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Shader packs do not work correctly with Distant Horizons. Using Distant Horizons without a shader pack (vanilla rendering) is recommended.$(br2)With a shader pack the cloud is only hidden when a hill covers all of it."
+    }
+  ]
+}

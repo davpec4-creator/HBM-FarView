@@ -1,0 +1,18 @@
+{
+  "name": "Known issues",
+  "icon": "minecraft:barrier",
+  "category": "hbm_farview:issues",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When a blast destroys terrain, the cloud can disappear for a few seconds while the area is loaded again, then it returns.$(br2)Close to the blast this does not happen.",
+      "title": "Cloud disappears"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Tsar Bomba seen from about 1000 blocks away can freeze the game when there is not enough RAM.$(br2)This is planned to be fixed in a later version.",
+      "title": "Large bombs"
+    }
+  ]
+}
