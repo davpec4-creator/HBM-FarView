@@ -17,6 +17,10 @@ public final class FarView {
             "entity_moonstone_blast"
     };
 
+    private static final String[] NUKE_IDS = {
+            "nuke_torex"
+    };
+
     private static final String[] MISSILE_IDS = {
             "entity_missile_micro",
             "entity_missile_taint",
@@ -41,6 +45,7 @@ public final class FarView {
 
     private static Set<EntityType<?>> types;
     private static Set<EntityType<?>> missileTypes;
+    private static Set<EntityType<?>> nukeTypes;
     private static final long SEEN_NANOS = 2_000_000_000L;
 
     private static Entity lastChecked;
@@ -72,6 +77,22 @@ public final class FarView {
                 : FarViewClientConfig.blastEffects();
     }
 
+    /** True for the NTM missiles. */
+    public static boolean isMissile(Entity entity) {
+        if (types == null) {
+            types = resolve();
+        }
+        return missileTypes.contains(entity.getType());
+    }
+
+    /** True for the mushroom cloud of a nuclear explosion; it starts the fallout weather. */
+    public static boolean isNuke(Entity entity) {
+        if (types == null) {
+            types = resolve();
+        }
+        return nukeTypes.contains(entity.getType());
+    }
+
     public static void markChecked(Entity entity) {
         boolean far = isShownFar(entity);
         lastChecked = far ? entity : null;
@@ -100,6 +121,9 @@ public final class FarView {
         Set<EntityType<?>> missiles = new HashSet<>();
         add(missiles, MISSILE_IDS);
         missileTypes = missiles;
+        Set<EntityType<?>> nukes = new HashSet<>();
+        add(nukes, NUKE_IDS);
+        nukeTypes = nukes;
         Set<EntityType<?>> set = new HashSet<>(missiles);
         add(set, IDS);
         return set;

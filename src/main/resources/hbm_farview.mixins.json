@@ -16,7 +16,9 @@
     "client.MixinLevelRenderer",
     "client.MixinGameRenderer",
     "client.MixinCompatParticle",
-    "client.MixinHbmParticleHandlers"
+    "client.MixinHbmParticleHandlers",
+    "client.MixinLevelRendererClouds",
+    "client.MixinLevelRendererRain"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -5,6 +5,11 @@
   "pages": [
     {
       "type": "patchouli:text",
+      "title": "0.2.9",
+      "text": "Custom 3D clouds ..."
+    },
+    {
+      "type": "patchouli:text",
       "title": "0.2.8",
       "text": "New config screen. Open it with the Config button in the mod list or with the command /farview config.$(br2)New client settings: far blast effects, far missiles and far missile smoke can each be turned off. Changes apply at once, without a restart."
     },
